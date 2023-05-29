@@ -4,9 +4,7 @@
 
     <!-- Card Container-->
     <div class="card-container flex flex-row flex-wrap gap-y-6">
-      <Data />
       <!-- Card -->
-      <!-- <Card />
       <Card />
       <Card />
       <Card />
@@ -15,7 +13,9 @@
       <Card />
       <Card />
       <Card />
-      <Card /> -->
+      <Card />
+      <Card />
+      <Data />
     </div>
   </div>
 </template>

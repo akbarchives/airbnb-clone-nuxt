@@ -1,16 +1,16 @@
 <template>
   <NuxtLink
     to="/details"
-    class="card group min-w-fit max-w-md rounded-2xl border bg-white hover:bg-slate-100"
+    class="card border-pink min-w-fit max-w-md rounded-2xl border"
   >
     <!-- class="card flex basis-full flex-col overflow-hidden border border-pink-500 sm:basis-1/2 sm:pr-4 md:basis-1/3 lg:basis-1/4" -->
     <div class="group overflow-hidden rounded-t-2xl">
       <img
         class="aspect-video w-full overflow-hidden object-cover object-top duration-1000 ease-out group-hover:scale-105 sm:aspect-square"
         alt=""
-        :src="image"
+        src="~/assets/img/content-img/photo-3.webp"
       />
-      <!-- src="~/assets/img/content-img/photo-3.webp" -->
+      <!-- :src="image" -->
     </div>
     <div class="p-4">
       <div class="flex flex-row justify-between">

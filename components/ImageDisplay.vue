@@ -1,6 +1,6 @@
 <template>
   <div
-    class="grid w-full grid-flow-col grid-rows-2 gap-3 overflow-hidden rounded-2xl"
+    class="grid w-full gap-3 overflow-hidden rounded-2xl sm:grid-flow-col sm:grid-rows-2"
   >
     <img
       class="col-span-2 row-span-2 h-full"

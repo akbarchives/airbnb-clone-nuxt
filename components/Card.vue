@@ -1,5 +1,6 @@
 <template>
-  <div
+  <NuxtLink
+    to="/details"
     class="card basis-full overflow-hidden sm:basis-1/2 sm:pr-4 md:basis-1/3 lg:basis-1/4"
   >
     <div class="group overflow-hidden rounded-2xl">
@@ -24,5 +25,5 @@
     <h2 class="text-sm font-medium tracking-tighter underline sm:text-sm">
       <span class="font-bold">Rp 26,147,085 </span> total before taxes
     </h2>
-  </div>
+  </NuxtLink>
 </template>

@@ -35,12 +35,7 @@
     <!-- Content -->
     <div class="flex flex-col px-6 pt-6 sm:px-8">
       <!-- Container-->
-      <div
-        class="custom-container mx-auto mb-36 flex max-w-screen-2xl flex-row flex-wrap gap-y-6"
-      >
-        <!-- Content -->
-        <slot />
-      </div>
+      <slot />
     </div>
 
     <!-- Footer -->

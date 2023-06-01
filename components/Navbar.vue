@@ -2,7 +2,7 @@
   <nav class="border bg-white">
     <div class="mx-auto max-w-screen-2xl">
       <div
-        class="flex h-20 flex-row items-center justify-center bg-white px-6 sm:px-8"
+        class="z-20 flex h-20 flex-row items-center justify-center bg-white px-6 sm:px-8"
       >
         <div
           class="flex w-auto flex-row items-center justify-between gap-2 sm:basis-4/6 md:basis-1/3"
@@ -139,11 +139,6 @@
     </div>
   </nav>
 </template>
-<style>
-nav {
-  z-index: 999;
-}
-</style>
 
 <script setup>
 import {

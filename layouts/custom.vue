@@ -32,14 +32,11 @@
       <NavbarCategories />
     </div>
 
-    <!-- Content -->
-    <div class="flex flex-col px-6 pt-6 sm:px-8">
-      <!-- Container-->
-      <slot />
-    </div>
+    <!-- Container-->
+    <slot />
 
     <!-- Footer -->
-    <Footer class="fixed bottom-0" />
+    <Footer class="" />
   </div>
 </template>
 

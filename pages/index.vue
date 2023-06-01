@@ -3,7 +3,7 @@
     <div
       class="custom-container mx-auto mb-36 grid max-w-screen-2xl grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
     >
-      <div v-for="p in products2.products">
+      <!-- <div v-for="p in products2.products">
         <CardSwipe
           :title="p.title"
           :rating="p.rating"
@@ -15,7 +15,8 @@
           :img1="p.images[0]"
           :img2="p.images[1]"
         />
-      </div>
+      </div> -->
+      this landing page
     </div>
   </NuxtLayout>
 
@@ -73,4 +74,6 @@ console.log(movie);
 // console.log(produk);
 // console.log(getProducts());
 // getProducts();
+
+const limitationList = 5;
 </script>

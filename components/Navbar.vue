@@ -128,11 +128,53 @@
           <div class="rounded-full p-2 filter-none hover:bg-slate-100">
             <GlobeAltIcon class="h-5 w-5 rounded-full text-black" />
           </div>
-          <div
-            class="flex gap-2 rounded-full border p-2 shadow filter-none hover:shadow-md"
-          >
-            <Bars3Icon class="inline h-8 w-8" />
-            <UserCircleIcon class="inline h-8 w-8" />
+          <!-- User Button -->
+          <div class="relative inline-block text-left">
+            <button
+              @click="toggleDropdown"
+              class="flex gap-2 rounded-full border p-2 shadow filter-none hover:shadow-md"
+            >
+              <Bars3Icon class="inline h-8 w-8" />
+              <UserCircleIcon class="inline h-8 w-8" />
+            </button>
+            <div
+              class="absolute right-0 z-20 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5"
+              :class="{ hidden: !isDropdownOpen }"
+            >
+              <div
+                class="py-1"
+                role="menu"
+                aria-orientation="vertical"
+                aria-labelledby="options-menu"
+              >
+                <a
+                  href="#"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                  role="menuitem"
+                  >Sign up</a
+                >
+                <a
+                  href="#"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                  role="menuitem"
+                  >Log in</a
+                >
+                <div class="border-t border-gray-200"></div>
+                <!-- Separator -->
+                <a
+                  href="#"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                  role="menuitem"
+                  >Airbnb your home</a
+                >
+                <a
+                  href="#"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                  role="menuitem"
+                  >Help</a
+                >
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -140,26 +182,35 @@
   </nav>
 </template>
 
-<script setup>
-import {
-  HomeIcon,
-  FilmIcon,
-  PlusIcon,
-  MagnifyingGlassCircleIcon,
-} from '@heroicons/vue/24/solid';
+<script>
 import { GlobeAltIcon } from '@heroicons/vue/24/outline';
 import {
+  MagnifyingGlassCircleIcon,
   UserCircleIcon,
   MagnifyingGlassIcon,
   AdjustmentsHorizontalIcon,
   Bars3Icon,
 } from '@heroicons/vue/24/solid';
 
-const icons = reactive({
-  home: HomeIcon,
-  film: FilmIcon,
-  plus: PlusIcon,
-  globe: GlobeAltIcon,
-  user: UserCircleIcon,
-});
+export default {
+  data() {
+    return {
+      isDropdownOpen: false,
+    };
+  },
+  methods: {
+    toggleDropdown() {
+      this.isDropdownOpen = !this.isDropdownOpen;
+    },
+  },
+  components: {
+    // Register the imported icon component
+    GlobeAltIcon,
+    MagnifyingGlassCircleIcon,
+    UserCircleIcon,
+    MagnifyingGlassIcon,
+    AdjustmentsHorizontalIcon,
+    Bars3Icon,
+  },
+};
 </script>

@@ -3,9 +3,9 @@
     <div v-if="pending">
       <!-- skeleron card load -->
       <div
-        class="custom-container mx-auto mb-36 grid max-w-screen-2xl animate-pulse grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+        class="custom-container mx-auto mb-36 grid max-w-screen-2xl animate-pulse grid-cols-1 gap-4 px-6 pt-6 sm:grid-cols-2 sm:px-8 md:grid-cols-3 lg:grid-cols-4"
       >
-        <div class="flex flex-col overflow-hidden">
+        <div class="mb-6 flex flex-col overflow-hidden">
           <div
             class="flex h-48 items-center justify-center rounded-xl bg-gray-400"
           >
@@ -26,7 +26,7 @@
           <div class="white mt-2 h-2 w-6/12"></div>
           <div class="mt-2 h-4 w-6/12 rounded-full bg-gray-400"></div>
         </div>
-        <div class="flex flex-col overflow-hidden">
+        <div class="mb-6 flex flex-col overflow-hidden">
           <div
             class="flex h-48 items-center justify-center rounded-xl bg-gray-400"
           >
@@ -47,7 +47,7 @@
           <div class="white mt-2 h-2 w-6/12"></div>
           <div class="mt-2 h-4 w-6/12 rounded-full bg-gray-400"></div>
         </div>
-        <div class="flex flex-col overflow-hidden">
+        <div class="mb-6 flex flex-col overflow-hidden">
           <div
             class="flex h-48 items-center justify-center rounded-xl bg-gray-400"
           >
@@ -68,7 +68,7 @@
           <div class="white mt-2 h-2 w-6/12"></div>
           <div class="mt-2 h-4 w-6/12 rounded-full bg-gray-400"></div>
         </div>
-        <div class="flex flex-col overflow-hidden">
+        <div class="mb-6 flex flex-col overflow-hidden">
           <div
             class="flex h-48 items-center justify-center rounded-xl bg-gray-400"
           >
@@ -89,7 +89,7 @@
           <div class="white mt-2 h-2 w-6/12"></div>
           <div class="mt-2 h-4 w-6/12 rounded-full bg-gray-400"></div>
         </div>
-        <div class="flex flex-col overflow-hidden">
+        <div class="mb-6 flex flex-col overflow-hidden">
           <div
             class="flex h-48 items-center justify-center rounded-xl bg-gray-400"
           >
@@ -110,7 +110,7 @@
           <div class="white mt-2 h-2 w-6/12"></div>
           <div class="mt-2 h-4 w-6/12 rounded-full bg-gray-400"></div>
         </div>
-        <div class="flex flex-col overflow-hidden">
+        <div class="mb-6 flex flex-col overflow-hidden">
           <div
             class="flex h-48 items-center justify-center rounded-xl bg-gray-400"
           >
@@ -131,7 +131,7 @@
           <div class="white mt-2 h-2 w-6/12"></div>
           <div class="mt-2 h-4 w-6/12 rounded-full bg-gray-400"></div>
         </div>
-        <div class="flex flex-col overflow-hidden">
+        <div class="mb-6 flex flex-col overflow-hidden">
           <div
             class="flex h-48 items-center justify-center rounded-xl bg-gray-400"
           >
@@ -152,7 +152,7 @@
           <div class="white mt-2 h-2 w-6/12"></div>
           <div class="mt-2 h-4 w-6/12 rounded-full bg-gray-400"></div>
         </div>
-        <div class="flex flex-col overflow-hidden">
+        <div class="mb-6 flex flex-col overflow-hidden">
           <div
             class="flex h-48 items-center justify-center rounded-xl bg-gray-400"
           >
@@ -173,7 +173,7 @@
           <div class="white mt-2 h-2 w-6/12"></div>
           <div class="mt-2 h-4 w-6/12 rounded-full bg-gray-400"></div>
         </div>
-        <div class="flex flex-col overflow-hidden">
+        <div class="mb-6 flex flex-col overflow-hidden">
           <div
             class="flex h-48 items-center justify-center rounded-xl bg-gray-400"
           >
@@ -194,7 +194,7 @@
           <div class="white mt-2 h-2 w-6/12"></div>
           <div class="mt-2 h-4 w-6/12 rounded-full bg-gray-400"></div>
         </div>
-        <div class="flex flex-col overflow-hidden">
+        <div class="mb-6 flex flex-col overflow-hidden">
           <div
             class="flex h-48 items-center justify-center rounded-xl bg-gray-400"
           >
@@ -290,6 +290,4 @@ console.log(products2);
 // console.log(produk);
 // console.log(getProducts());
 // getProducts();
-
-const limitationList = 5;
 </script>

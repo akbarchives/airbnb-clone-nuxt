@@ -18,18 +18,9 @@
     <!-- Footer -->
     <div class="navbar sticky bottom-0">
       <!-- footer -->
+      <Footer />
     </div>
-    <!-- <Footer class="footer fixed bottom-0" /> -->
   </div>
 </template>
 
-<style>
-.navbar {
-  z-index: 100;
-}
-
-.footer {
-  z-index: 999;
-  background: #000;
-}
-</style>
+<style></style>

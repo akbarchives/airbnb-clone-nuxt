@@ -7,6 +7,10 @@
           class="flex w-full flex-row items-center justify-between self-end sm:hidden"
         >
           <swiper
+            :style="{
+              '--swiper-button-next': '#00ff00',
+              '--swiper-pagination-color': '#fff',
+            }"
             :slidesPerView="6"
             :spaceBetween="30"
             :navigation="true"

@@ -97,30 +97,17 @@ export default {
 };
 </script>
 <style>
-/* .swiper-button-next {
-  padding: 10px;
-  background-color: aqua;
-} */
-
-swiper,
-swiper-slide {
-  z-index: -9999;
-}
-
-footer {
-  z-index: 1000;
-}
-
 .swiper-button-next::after,
 .swiper-button-prev::after {
-  transform: scale(0.7);
+  transform: scale(0.4);
 }
 .swiper-button-next,
 .swiper-button-prev {
+  margin-top: -15px;
   color: black;
-  transform: scale(0.5);
-  width: 50px;
-  height: 50px;
+  /* transform: scale(0.5); */
+  width: 30px;
+  height: 30px;
   background: white;
   border-radius: 999px;
   border: 2px solid #a8a8a8;
@@ -129,7 +116,7 @@ footer {
 }
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
-  transform: scale(0.6);
+  /* transform: scale(0.6); */
   transition: all 0.2s ease-in-out;
 }
 

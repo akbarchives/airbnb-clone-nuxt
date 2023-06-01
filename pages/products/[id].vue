@@ -18,7 +18,9 @@ console.log(product);
   <NuxtLayout :name="layout">
     <div class="bg-white">
       <div class="mx-auto w-full max-w-screen-2xl pb-20 pt-10">
-        <div class="flex flex-col items-start justify-between px-6 sm:px-8">
+        <div
+          class="flex min-w-max flex-col items-start justify-between px-6 sm:px-8"
+        >
           <!-- title -->
           <h1 class="text-2xl font-bold leading-none">
             {{ product.title }}
@@ -62,6 +64,7 @@ console.log(product);
               >
             </div>
           </div>
+          <!-- image display -->
 
           <ImageDisplay
             class="mt-6"
@@ -71,7 +74,17 @@ console.log(product);
             :img3="product.images[3]"
             :img4="product.images[4]"
           />
-          <!-- image display -->
+
+          <!-- details -->
+          <div class="sticky right-0 top-64 flex w-full pt-96">
+            <div class="basis-7/12">
+              <h1 class="h-screen">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure,
+                accusantium natus! Dolore delectus minima numquam!
+              </h1>
+            </div>
+            <div class="basis-5/12">2</div>
+          </div>
         </div>
       </div>
     </div>

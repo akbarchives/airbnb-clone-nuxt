@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-pink-200">
-    <div class="mx-auto max-w-screen-2xl border bg-white">
+  <div class="border-y">
+    <div class="mx-auto max-w-screen-2xl bg-white">
       <!-- mobile display -->
       <div
         class="fixed bottom-0 z-50 flex w-full flex-row justify-center gap-12 border-t bg-white px-8 py-3 text-slate-400 sm:hidden"
@@ -30,7 +30,9 @@
 
       <!-- dekstop display -->
 
-      <div class="hidden w-full flex-row justify-between px-8 py-3 sm:flex">
+      <div
+        class="fixed bottom-0 hidden w-full flex-row justify-between border-t bg-white px-8 py-3 sm:flex"
+      >
         <!-- left footer-->
         <div
           class="flex flex-row flex-wrap items-center gap-2 text-xs lg:text-base"

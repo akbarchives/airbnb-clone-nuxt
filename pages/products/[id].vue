@@ -76,15 +76,18 @@ console.log(product);
           />
 
           <!-- details -->
-          <div class="sticky right-0 top-64 flex w-full pt-96">
-            <div class="basis-7/12">
-              <h1 class="h-screen">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure,
-                accusantium natus! Dolore delectus minima numquam!
-              </h1>
+          <div class="w-full bg-pink-200 py-12">
+            <!-- left -->
+            <div
+              class="sticky top-32 inline-block h-[500px] w-1/2 bg-purple-400"
+            >
+              left
             </div>
-            <div class="basis-5/12">2</div>
+            <!-- right -->
+            <div class="inline-block h-[500px] w-1/2 bg-yellow-400">right</div>
           </div>
+
+          <h1 class="my-64 w-full border-t-2">sadsa</h1>
         </div>
       </div>
     </div>
